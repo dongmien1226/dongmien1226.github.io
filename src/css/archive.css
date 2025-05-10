@@ -1,0 +1,149 @@
+/* archive.css - Japanese Style Archive */
+
+body {
+    font-family: 'Poppins', serif;
+    background-color: #fdfaf4;
+    color: #1a1a1a;
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+}
+
+.archive-section {
+    max-width: 1000px;
+    margin: 6rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border: 1px solid #e0ded7;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.archive-section h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 2px solid #9EBC8A;
+    padding-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    color: #9EBC8A;
+}
+
+#archive-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 1.5rem;
+}
+
+#archive-container .post-title{
+    text-decoration: none;
+    color: #FFA55D;
+}
+
+/* Sakura Bullets 🌸 */
+ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.tag-title {
+    color: #9EBC8A;
+}
+
+.archive-item {
+    border: 1px solid #73946B;
+    padding: 1rem;
+    background: #fafafa;
+    border-radius: 6px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.archive-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(35, 78, 57, 0.1);
+    background-color: #f0ede9;
+}
+
+.archive-item h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #2e2e2e;
+}
+
+.archive-item p {
+    font-size: 0.95rem;
+    color: #4b4b4b;
+}
+
+/* Japanese-style decorations */
+.archive-section::before {
+    content: "アーカイブ";
+    display: block;
+    font-size: 3rem;
+    text-align: center;
+    color: #9EBC8A;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: 'Noto Serif JP', serif;
+}
+
+
+.footer {
+    background: #fdfaf4;
+}
+
+@media (max-width: 600px) {
+    .archive-section {
+        padding: 2rem;
+    }
+
+    .archive-section h1 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #archive-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+
+    .archive-item {
+        padding: 0.75rem;
+    }
+
+    .archive-section h1 {
+        font-size: 1.6rem;
+    }
+
+    ul li {
+        font-size: 0.95rem;
+        padding-left: 1.2rem;
+    }
+
+    ul li::before {
+        top: 0.2rem;
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .archive-section {
+        padding: 1rem;
+    }
+
+    .archive-section h1 {
+        font-size: 1.4rem;
+    }
+
+    .archive-item h2 {
+        font-size: 1rem;
+    }
+
+    .archive-item p {
+        font-size: 0.9rem;
+    }
+}
+

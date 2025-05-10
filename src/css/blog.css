@@ -1,0 +1,141 @@
+/* Blog content section */
+.blogs-section {
+    margin-top: 80px;
+    max-width: 800px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#post-container {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.8;
+    color: #333;
+    margin: 0 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+}
+
+#post-container h1, #post-container h2, #post-container h3 {
+    color: #1b1b1b;
+    margin-bottom: 20px;
+}
+
+#post-container p {
+    margin-bottom: 20px;
+}
+
+#post-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#post-container a {
+    color: #8F87F1;
+    text-decoration: dashed;
+}
+
+#post-container ul, #post-container ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+#post-container blockquote {
+    margin: 20px 0;
+    padding: 20px;
+    background: #f9f9f9;
+    border-left: 5px solid #1b1b1b;
+    font-style: italic;
+    color: #555;
+}
+
+.post-date {
+    padding-top: 50px;
+    font-size: 1rem;
+    color: #666;
+    font-style: italic;
+}
+
+
+/* Tags section */
+.tags-container {
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+}
+
+.tags-container h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ddd;
+}
+
+.tags-container .tag {
+    color: #8F87F1;
+    background: #fff;
+    padding: 5px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tags-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.tags-list li {
+    margin: 0;
+}
+
+.tags-list a {
+    text-decoration: none;
+    color: #f9f9f9;
+    background: #ddd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.tags-list a:hover {
+    background: #fff;
+}
+
+/* Footer styles */
+.footer {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .blogs-section {
+        padding: 15px;
+        margin: 20px;
+    }
+
+    #post-container {
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    #post-container h1, h2, h3 {
+        font-size: 1.2rem;
+    }
+
+    .tags-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tags-list a {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
