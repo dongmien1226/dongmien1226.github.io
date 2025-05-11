@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Fetch and display posts
   function fetchPosts(page) {
-    fetch("./api/posts")
+    fetch("./src/js/posts.json")
       .then((res) => res.json())
       .then((posts) => {
         // console.log("Fetched posts:", posts); - debug

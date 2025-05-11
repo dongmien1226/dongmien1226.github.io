@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const archiveContainer = document.getElementById("archive-container");
 
     // Fetch archive data from the backend
-    fetch("./api/archive")
+    fetch("./src/js/archive.json")
         .then((res) => res.json())
         .then((archive) => {
             archiveContainer.innerHTML = ""; // Clear existing content
