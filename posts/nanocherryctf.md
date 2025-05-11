@@ -2,9 +2,9 @@
 tags: thm
 ---
 
+**NanoCherryCTF**
 [!Banner](./src/uploads/nanocherryctf.png)
 
-NanoCherryCTF
 
 Explore a double-sided site and escalate to root!
 

@@ -1,7 +1,7 @@
 ---
 tags: thm
 ---
-
+**Templates**
 [!Banner](./src/uploads/templates.png)
 
 Templates

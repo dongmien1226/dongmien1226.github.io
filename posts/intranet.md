@@ -1,7 +1,7 @@
 ---
 tags: thm
 ---
-
+**Intranet**
 [!Banner](./src/uploads/intranet.png)
 
 Welcome to the intranet!

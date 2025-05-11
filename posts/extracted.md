@@ -1,7 +1,7 @@
 ---
 tags: thm
 ---
-
+**Extracted**
 [!Banner](./src/uploads/extracted.png)
 
 

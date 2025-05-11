@@ -1,7 +1,7 @@
 ---
 tags: thm
 ---
-
+**Stealth**
 [!Banner](./src/uploads/stealth.png)
 
 Stealth

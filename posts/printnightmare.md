@@ -1,7 +1,7 @@
 ---
 tags: thm
 ---
-
+**Print Nightmare**
 [!Banner](./src/uploads/printnightmare.png)
 
 PrintNightmare, thrice!

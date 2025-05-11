@@ -1,7 +1,7 @@
 ---
 tags: thm
 ---
-Keldagrim
+**Keldagrim**
 ========================
 [!Banner](./src/uploads/keldagrim.png)
 The dwarves are hiding their gold!

@@ -1,7 +1,7 @@
 ---
 tags: thm
 ---
-
+**Kitty**
 [!Banner](./src/uploads/kitty.png)
 
 Map? Where we are going, we don't need maps.
