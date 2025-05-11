@@ -34,8 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     ).join(' ');
 
                     postContainer.innerHTML = `
-                        <p class="post-date">Published on: ${formattedDate}</p>
-                        <div class="tags-container">${tagsHTML}</div>
+                        <p class="post-date">Published on: ${formattedDate}</p>   
                         ${htmlContent}
                     `;
 
