@@ -14,15 +14,15 @@ app.use(express.static(initial_path));
 app.use(fileupload());
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(initial_path, "index.html"));
+    res.sendFile(path.join(__dirname,"index.html"));
 });
 
 app.get('/archive', (req, res) => {
-    res.sendFile(path.join(initial_path, "archive.html"));
+    res.sendFile(path.join(__dirname, "archive.html"));
 });
 
 app.get('/misc', (req, res) => {
-    res.sendFile(path.join(initial_path, "misc.html"));
+    res.sendFile(path.join(__dirname, "misc.html"));
 });
 
 // Upload an image
