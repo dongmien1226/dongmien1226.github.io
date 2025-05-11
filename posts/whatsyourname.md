@@ -2,7 +2,7 @@
 tags: thm
 ---
 
-[!Banner](../uploads/whatsyourname.jpeg)
+[!Banner](./src/uploads/whatsyourname.jpeg)
 Utilise your client-side exploitation skills to take control of a web app.
 This challenge will test client-side exploitation skills, from inspecting Javascript to manipulating cookies to launching CSRF/XSS attacks. To start the VM, click the Start Machine button at the top right of the task.
 

@@ -2,4 +2,4 @@
 tags: overthewire
 ---
 
-[!Banner](../uploads/bandit.png)
+[!Banner](./src/uploads/bandit.png)

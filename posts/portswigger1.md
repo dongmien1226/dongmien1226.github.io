@@ -2,4 +2,4 @@
 tags: portswigger
 ---
 
-[!Banner](../uploads/portswigger.png)
+[!Banner](./src/uploads/portswigger.png)

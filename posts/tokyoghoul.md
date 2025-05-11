@@ -2,5 +2,5 @@
 tags: thm
 ---
 
-[!Banner](../uploads/tokyoghoul.jpeg)
+[!Banner](./src/uploads/tokyoghoul.jpeg)
 Help kaneki escape jason room 

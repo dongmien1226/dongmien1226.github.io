@@ -2,7 +2,7 @@
 tags: thm
 ---
 
-[!Banner](../uploads/templates.png)
+[!Banner](./src/uploads/templates.png)
 
 Templates
 

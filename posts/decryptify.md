@@ -2,7 +2,7 @@
 tags: thm
 ---
 
-[!Banner](../uploads/decryptify.png)
+[!Banner](./src/uploads/decryptify.png)
 
 Decryptify
 

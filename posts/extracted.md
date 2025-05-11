@@ -2,7 +2,7 @@
 tags: thm
 ---
 
-[!Banner](../uploads/extracted.png)
+[!Banner](./src/uploads/extracted.png)
 
 
 We need your help!

@@ -2,6 +2,6 @@
 tags: thm
 ---
 
-[!Banner](../uploads/road.png)
+[!Banner](./src/uploads/road.png)
 Inspired by a real-world pentesting engagement
 As usual, obtain the user and root flag.

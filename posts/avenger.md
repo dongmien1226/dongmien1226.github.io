@@ -2,7 +2,7 @@
 tags: thm
 ---
 
-[!Banner](../uploads/avenger.png)
+[!Banner](./src/uploads/avenger.png)
 
 AVenger
 

@@ -2,7 +2,7 @@
 tags: thm
 ---
 
-[!Banner](../uploads/libertyisland.png)
+[!Banner](./src/uploads/libertyisland.png)
 
 DX1: Liberty Island
 

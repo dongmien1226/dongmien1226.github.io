@@ -2,6 +2,6 @@
 tags: thm
 ---
 
-[!Banner](../uploads/services.png)
+[!Banner](./src/uploads/services.png)
 At your service.
 Meet the team!
