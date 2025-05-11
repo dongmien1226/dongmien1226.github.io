@@ -2,7 +2,7 @@
   {
     "title": "napping",
     "filename": "napping.md",
-    "imageUrl": "./uploads/napping.png",
+    "imageUrl": "./src/uploads/napping.png",
     "date": "2025-05-11T12:44:44.130Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -10,7 +10,7 @@
   {
     "title": "stealth",
     "filename": "stealth.md",
-    "imageUrl": "./uploads/stealth.png",
+    "imageUrl": "./src/uploads/stealth.png",
     "date": "2025-05-10T14:28:12.187Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -18,7 +18,7 @@
   {
     "title": "avenger",
     "filename": "avenger.md",
-    "imageUrl": "./uploads/avenger.png",
+    "imageUrl": "./src/uploads/avenger.png",
     "date": "2025-05-10T14:27:01.065Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -26,7 +26,7 @@
   {
     "title": "decryptify",
     "filename": "decryptify.md",
-    "imageUrl": "./uploads/decryptify.png",
+    "imageUrl": "./src/uploads/decryptify.png",
     "date": "2025-05-10T14:25:32.283Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -34,7 +34,7 @@
   {
     "title": "nanocherryctf",
     "filename": "nanocherryctf.md",
-    "imageUrl": "./uploads/nanocherryctf.png",
+    "imageUrl": "./src/uploads/nanocherryctf.png",
     "date": "2025-05-10T14:23:32.319Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -42,7 +42,7 @@
   {
     "title": "templates",
     "filename": "templates.md",
-    "imageUrl": "./uploads/templates.png",
+    "imageUrl": "./src/uploads/templates.png",
     "date": "2025-05-10T14:22:13.006Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -50,7 +50,7 @@
   {
     "title": "libertyisland",
     "filename": "libertyisland.md",
-    "imageUrl": "./uploads/libertyisland.png",
+    "imageUrl": "./src/uploads/libertyisland.png",
     "date": "2025-05-10T14:20:19.826Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -58,7 +58,7 @@
   {
     "title": "printnightmare",
     "filename": "printnightmare.md",
-    "imageUrl": "./uploads/printnightmare.png",
+    "imageUrl": "./src/uploads/printnightmare.png",
     "date": "2025-05-10T14:19:17.001Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -66,7 +66,7 @@
   {
     "title": "scripting",
     "filename": "scripting.md",
-    "imageUrl": "./uploads/scripting.png",
+    "imageUrl": "./src/uploads/scripting.png",
     "date": "2025-05-10T14:16:22.703Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -74,7 +74,7 @@
   {
     "title": "dodge",
     "filename": "dodge.md",
-    "imageUrl": "./uploads/dodge.png",
+    "imageUrl": "./src/uploads/dodge.png",
     "date": "2025-05-10T14:13:46.590Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -82,7 +82,7 @@
   {
     "title": "netsecchallenge",
     "filename": "netsecchallenge.md",
-    "imageUrl": "./uploads/netsecchallenge.png",
+    "imageUrl": "./src/uploads/netsecchallenge.png",
     "date": "2025-05-10T14:13:43.814Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -90,7 +90,7 @@
   {
     "title": "brute",
     "filename": "brute.md",
-    "imageUrl": "./uploads/brute.png",
+    "imageUrl": "./src/uploads/brute.png",
     "date": "2025-05-10T14:10:32.009Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -98,7 +98,7 @@
   {
     "title": "services",
     "filename": "services.md",
-    "imageUrl": "./uploads/services.png",
+    "imageUrl": "./src/uploads/services.png",
     "date": "2025-05-10T14:09:20.618Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -106,7 +106,7 @@
   {
     "title": "devie",
     "filename": "devie.md",
-    "imageUrl": "./uploads/devie.png",
+    "imageUrl": "./src/uploads/devie.png",
     "date": "2025-05-10T14:08:26.241Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -114,7 +114,7 @@
   {
     "title": "intranet",
     "filename": "intranet.md",
-    "imageUrl": "./uploads/intranet.png",
+    "imageUrl": "./src/uploads/intranet.png",
     "date": "2025-05-10T14:06:56.076Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -122,7 +122,7 @@
   {
     "title": "biblioteca",
     "filename": "biblioteca.md",
-    "imageUrl": "./uploads/biblioteca.png",
+    "imageUrl": "./src/uploads/biblioteca.png",
     "date": "2025-05-10T14:05:33.487Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -130,7 +130,7 @@
   {
     "title": "whyhackme",
     "filename": "whyhackme.md",
-    "imageUrl": "./uploads/whyhackme.png",
+    "imageUrl": "./src/uploads/whyhackme.png",
     "date": "2025-05-10T14:04:03.969Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -138,7 +138,7 @@
   {
     "title": "kitty",
     "filename": "kitty.md",
-    "imageUrl": "./uploads/kitty.png",
+    "imageUrl": "./src/uploads/kitty.png",
     "date": "2025-05-10T14:02:30.781Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -146,7 +146,7 @@
   {
     "title": "extracted",
     "filename": "extracted.md",
-    "imageUrl": "./uploads/extracted.png",
+    "imageUrl": "./src/uploads/extracted.png",
     "date": "2025-05-10T14:01:20.552Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -154,7 +154,7 @@
   {
     "title": "thelondonbrigde",
     "filename": "thelondonbrigde.md",
-    "imageUrl": "./uploads/thelondonbrigde.png",
+    "imageUrl": "./src/uploads/thelondonbrigde.png",
     "date": "2025-05-10T13:59:26.448Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -162,7 +162,7 @@
   {
     "title": "rabbitstore",
     "filename": "rabbitstore.md",
-    "imageUrl": "./uploads/rabbitstore.png",
+    "imageUrl": "./src/uploads/rabbitstore.png",
     "date": "2025-05-10T13:57:39.297Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -170,7 +170,7 @@
   {
     "title": "smol",
     "filename": "smol.md",
-    "imageUrl": "./uploads/smol.png",
+    "imageUrl": "./src/uploads/smol.png",
     "date": "2025-05-10T13:55:50.869Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -178,7 +178,7 @@
   {
     "title": "portswigger1",
     "filename": "portswigger1.md",
-    "imageUrl": "./uploads/portswigger1.jpg",
+    "imageUrl": "./src/uploads/portswigger1.jpg",
     "date": "2025-05-10T13:51:04.466Z",
     "tags": ["portswigger"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -186,7 +186,7 @@
   {
     "title": "bandit",
     "filename": "bandit.md",
-    "imageUrl": "./uploads/bandit.png",
+    "imageUrl": "./src/uploads/bandit.png",
     "date": "2025-05-10T13:48:56.587Z",
     "tags": ["overthewire"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -194,7 +194,7 @@
   {
     "title": "keldagrim",
     "filename": "keldagrim.md",
-    "imageUrl": "./uploads/keldagrim.png",
+    "imageUrl": "./src/uploads/keldagrim.png",
     "date": "2025-05-10T13:32:46.038Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -202,7 +202,7 @@
   {
     "title": "whatsyourname",
     "filename": "whatsyourname.md",
-    "imageUrl": "./uploads/whatsyourname.png",
+    "imageUrl": "./src/uploads/whatsyourname.png",
     "date": "2025-05-10T13:30:29.650Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -210,7 +210,7 @@
   {
     "title": "tokyoghoul",
     "filename": "tokyoghoul.md",
-    "imageUrl": "./uploads/tokyoghoul.jpeg",
+    "imageUrl": "./src/uploads/tokyoghoul.jpeg",
     "date": "2025-05-10T13:25:27.744Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -218,7 +218,7 @@
   {
     "title": "road",
     "filename": "road.md",
-    "imageUrl": "./uploads/road.png",
+    "imageUrl": "./src/uploads/road.png",
     "date": "2025-05-10T13:21:51.476Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -226,7 +226,7 @@
   {
     "title": "sqhell",
     "filename": "sqhell.md",
-    "imageUrl": "./uploads/sqhell.jpeg",
+    "imageUrl": "./src/uploads/sqhell.jpeg",
     "date": "2025-05-10T13:19:14.700Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -234,7 +234,7 @@
   {
     "title": "include",
     "filename": "include.md",
-    "imageUrl": "./uploads/include.png",
+    "imageUrl": "./src/uploads/include.png",
     "date": "2025-05-10T13:17:23.020Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -242,7 +242,7 @@
   {
     "title": "hammer",
     "filename": "hammer.md",
-    "imageUrl": "./uploads/hammer.png",
+    "imageUrl": "./src/uploads/hammer.png",
     "date": "2025-05-10T13:15:09.026Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -250,7 +250,7 @@
   {
     "title": "yougotmail",
     "filename": "yougotmail.md",
-    "imageUrl": "./uploads/yougotmail.png",
+    "imageUrl": "./src/uploads/yougotmail.png",
     "date": "2025-05-10T13:14:22.889Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -258,7 +258,7 @@
   {
     "title": "injectics",
     "filename": "injectics.md",
-    "imageUrl": "./uploads/injectics.png",
+    "imageUrl": "./src/uploads/injectics.png",
     "date": "2025-05-10T13:13:47.530Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
@@ -266,7 +266,7 @@
   {
     "title": "dockmagic",
     "filename": "dockmagic.md",
-    "imageUrl": "./uploads/dockmagic.png",
+    "imageUrl": "./src/uploads/dockmagic.png",
     "date": "2025-05-10T13:11:11.931Z",
     "tags": ["thm"],
     "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
