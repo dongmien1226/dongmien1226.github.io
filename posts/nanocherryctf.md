@@ -2,7 +2,7 @@
 tags: thm
 ---
 
-[!Banner](../uploads/nanocherryctf.png)
+[!Banner](./src/uploads/nanocherryctf.png)
 
 NanoCherryCTF
 
