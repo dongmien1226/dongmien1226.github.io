@@ -53,7 +53,7 @@ app.post('/api/upload', (req, res) => {
             return res.status(500).json({ error: 'Failed to upload image.' });
         }
 
-        res.json({ message: 'Image uploaded successfully.', imageUrl: `/content/${image.name}` });
+        res.json({ message: 'Image uploaded successfully.', imageUrl: `src/content/${image.name}` });
     });
 });
 

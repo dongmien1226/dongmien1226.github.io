@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Fetch the blog post content
-    fetch(`api/post/${filename}`)
+    fetch(`./api/post/${filename}`)
         .then((res) => {
             if (!res.ok) {
                 throw new Error("Failed to fetch post");
