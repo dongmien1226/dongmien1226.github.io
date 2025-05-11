@@ -13,6 +13,9 @@ const app = express();
 app.use(express.static(initial_path));
 app.use(fileupload());
 
+app.use(express.static(path.join(__dirname, "src"))); // Serve static files from the src folder
+app.use(express.static(__dirname)); // Serve HTML files from the root directory
+
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname,"index.html"));
 });
