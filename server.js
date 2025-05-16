@@ -3,7 +3,6 @@ const path = require('path');
 const fileupload = require('express-fileupload');
 const { marked } = require('marked');
 const fs = require('fs');
-const { error } = require('console');
 
 const port = 3000
 
@@ -28,38 +27,10 @@ app.get('/misc', (req, res) => {
     res.sendFile(path.join(__dirname, "misc.html"));
 });
 
-// Upload an image
-app.post('/api/upload', (req, res) => {
-    if (!req.files || !req.files.image) {
-        return res.status(400).json({ error: 'No image file uploaded.' });
-    }
-
-    if (image.size > 5 * 1024 * 1024) { // Limit to 5MB
-    return res.status(400).json({ error: 'Image size exceeds 5MB.' });
-}
-
-    const image = req.files.image;
-    const allowedFormats = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
-    const ext = path.extname(image.name).toLowerCase();
-
-    if(!allowedFormats.includes(ext)) {
-        return res.status(400).json({ error: 'Unsupported image format.' });
-    }
-
-    const uploadPath = path.join(initial_path, 'uploads', image.name);
-
-    image.mv(uploadPath, (err) => {
-        if (err) {
-            return res.status(500).json({ error: 'Failed to upload image.' });
-        }
-
-        res.json({ message: 'Image uploaded successfully.', imageUrl: `src/posts/${image.name}` });
-    });
-});
 
 // Get all blog posts
 app.get('/api/posts', (req, res) => {
-    const contentDir = path.join(initial_path, 'content');
+    const contentDir = path.join(__dirname, 'posts');
     const uploadsDir = path.join(initial_path, 'uploads');
     const { tag } = req.query; // Get the tag from the query parameter
 
@@ -114,7 +85,7 @@ app.get('/api/posts', (req, res) => {
 // Get a specific blog post
 app.get('/api/post/:filename', (req, res) => {
     const { filename } = req.params;
-    const filePath = path.join(initial_path, 'content', filename);
+    const filePath = path.join(__dirname, 'posts', filename);
 
     fs.readFile(filePath, 'utf8', (err, content) => {
         if (err) {
@@ -141,7 +112,7 @@ app.get('/api/post/:filename', (req, res) => {
 
 // archive
 app.get('/api/archive', (req, res) => {
-    const contentDir = path.join(initial_path, 'content');
+    const contentDir = path.join(initial_path, 'posts');
 
     fs.readdir(contentDir, (err, files) => {
         if (err) {
