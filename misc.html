@@ -1,56 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog: Misc</title>
-    <link rel="icon" type="image/png" href="src/img/logo.jpg">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="src/css/home.css">
-    <link rel="stylesheet" href="src/css/misc.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura-js@1.1.1/dist/sakura.min.css">
-</head>
-<body>
+    <link rel="icon" type="image/png" href="src/img/logo.jpg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/home.css" />
+    <link rel="stylesheet" href="src/css/misc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sakura-js@1.1.1/dist/sakura.min.css"
+    />
+  </head>
+  <body>
     <!-- navigation bar -->
     <nav class="navbar">
-        <div class="logo-container">
-            <img src="src/img/logo.jpg" alt="" id="logo">
-            <h1 id="logo_n">dong_mien</h1>
-        </div>
-        <ul class="links-container">
-            <li class="link-item"><a href="/index.html" class="link">Home</a></li>
-            <li class="link-item"><a href="/archive.html" class="link">Archive</a></li>
-            <li class="link-item"><a href="/misc.html" class="link">Misc</a></li>
-        </ul>
-        <div class="hamburger">
-            <img class="open-icon" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/menu--v1.png" alt="menu--v1"/>
-            <img class="close-icon" width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/delete-sign.png" alt="delete-sign"/>
-        </div>
+      <div class="logo-container">
+        <img src="src/img/logo.jpg" alt="" id="logo" />
+        <h1 id="logo_n">dong_mien</h1>
+      </div>
+      <ul class="links-container">
+        <li class="link-item"><a href="/index.html" class="link">Home</a></li>
+        <li class="link-item">
+          <a href="/archive.html" class="link">Archive</a>
+        </li>
+        <li class="link-item"><a href="/misc.html" class="link">Misc</a></li>
+      </ul>
+      <div class="hamburger">
+        <img
+          class="open-icon"
+          width="30"
+          height="30"
+          src="https://img.icons8.com/ios-glyphs/30/menu--v1.png"
+          alt="menu--v1"
+        />
+        <img
+          class="close-icon"
+          width="30"
+          height="30"
+          src="https://img.icons8.com/ios-glyphs/30/delete-sign.png"
+          alt="delete-sign"
+        />
+      </div>
     </nav>
-    
-    <!-- Misc Section -->
-<section class="misc-section">
-    <h1>Miscellaneous Collection</h1>
-    <div id="misc-container"></div>
-</section>
 
+    <!-- Misc Section -->
+    <section class="misc-section">
+      <h1>Miscellaneous Collection</h1>
+      <div id="misc-container"></div>
+      <div
+        id="markdown-viewer"
+        class="markdown-body"
+        style="display: none"
+      ></div>
+    </section>
 
     <!-- footer -->
     <footer class="footer">
-        <div class="footer-content">
-            <h1 class="footer-heading">dong_mien</h1>
-            <p class="footer-text">This is a personal blog. All rights reserved.</p>
-            <p class="footer-text">Made with ❤️ by <span id="hightlight-name">dong_mien</span></p>
-        </div>
-        <div class="socials">
-            <a href="https://github.com/dongmien1226"><img width="48" height="48" src="https://img.icons8.com/windows/32/github.png" alt="github" class="icons"/>Github</a>
-            <a href="#"><img width="48" height="48" src="https://img.icons8.com/color/48/facebook.png" alt="facebook" class="icons"/>Facebook</a>
-        </div>
+      <div class="footer-content">
+        <h1 class="footer-heading">dong_mien</h1>
+        <p class="footer-text">This is a personal blog. All rights reserved.</p>
+        <p class="footer-text">
+          Made with ❤️ by <span id="hightlight-name">dong_mien</span>
+        </p>
+      </div>
+      <div class="socials">
+        <a href="https://github.com/dongmien1226"
+          ><img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/windows/32/github.png"
+            alt="github"
+            class="icons"
+          />Github</a
+        >
+        <a href="#"
+          ><img
+            width="48"
+            height="48"
+            src="https://img.icons8.com/color/48/facebook.png"
+            alt="facebook"
+            class="icons"
+          />Facebook</a
+        >
+      </div>
     </footer>
     <script src="src/js/home.js"></script>
     <script src="src/js/archive.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="src/js/misc.js"></script>
     <script>
-      var sakura = new Sakura('body');
+      var sakura = new Sakura("body");
     </script>
-</body>
+  </body>
 </html>
