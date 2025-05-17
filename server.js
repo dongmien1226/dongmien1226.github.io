@@ -23,10 +23,6 @@ app.get("/archive", (req, res) => {
   res.sendFile(path.join(__dirname, "archive.html"));
 });
 
-app.get("/misc", (req, res) => {
-  res.sendFile(path.join(__dirname, "misc.html"));
-});
-
 // Get all blog posts
 app.get("/api/posts", (req, res) => {
   const contentDir = path.join(__dirname, "posts");

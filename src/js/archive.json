@@ -34,5 +34,6 @@
     { "title": "yougotmail", "filename": "yougotmail.md" }
   ],
   "overthewire": [{ "title": "bandit", "filename": "bandit.md" }],
-  "portswigger": [{ "title": "portswigger1", "filename": "portswigger1.md" }]
+  "portswigger": [{ "title": "portswigger1", "filename": "portswigger1.md" }],
+  "misc": [{ "title": "session management", "filename": "session_management.md" }]
 }
