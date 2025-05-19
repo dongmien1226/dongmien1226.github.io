@@ -1,13 +1,5 @@
 [
   {
-    "title": "session management",
-    "filename": "session_management.md",
-    "imageUrl": "./src/uploads/session_management/session_management.png",
-    "date": "2025-05-16T12:44:44.130Z",
-    "tags": ["misc"],
-    "generalTags": ["thm", "htb", "dreamhack", "linux", "misc"]
-  },
-  {
     "title": "napping",
     "filename": "napping.md",
     "imageUrl": "./src/uploads/napping.png",
